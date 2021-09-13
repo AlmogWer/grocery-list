@@ -58,9 +58,9 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-grey-10);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: linear-gradient(to right, #ffecd2, #fcb69f);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -164,7 +164,7 @@ Grocery List
 ===============
 */
 .section-center {
-  background: var(--clr-white);
+  background: rgba(255, 255, 255, 0.623);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
@@ -217,7 +217,7 @@ Grocery List
   color: var(--clr-grey-5);
 }
 .submit-btn {
-  background: var(--clr-primary-8);
+  background: #fcb69f;
   border-color: transparent;
   flex: 0 0 5rem;
   display: grid;
@@ -233,7 +233,7 @@ Grocery List
   font-size: 0.85rem;
 }
 .submit-btn:hover {
-  background: var(--clr-primary-5);
+  background: #dda08c;
   color: var(--clr-white);
 }
 
@@ -275,12 +275,14 @@ Grocery List
 }
 .edit-btn {
   color: var(--clr-green-light);
+  font-size: 1rem;
 }
 .edit-btn:hover {
   color: var(--clr-green-dark);
 }
 .delete-btn {
   color: var(--clr-red-light);
+  font-size: 1rem;
 }
 .delete-btn:hover {
   color: var(--clr-red-dark);
